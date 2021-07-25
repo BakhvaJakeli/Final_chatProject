@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="WelcomeViewController" id="Y6W-OH-hqX" customClass="WelcomeViewController" customModule="Final_chatProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="message.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="g8u-TU-zFb">
+                                <rect key="frame" x="137" y="378" width="140" height="139.5"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="LFd-je-GqS"/>
+                                    <constraint firstAttribute="height" constant="140" id="o7Z-gl-ceQ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To shmaiber" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIq-xm-fTj">
+                                <rect key="frame" x="50" y="638" width="314" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="T6f-gM-1Rl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="40"/>
+                                <color key="textColor" red="0.61731696849999995" green="0.3250413861" blue="0.35020077529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register to join our community" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9lb-v7-DsT">
+                                <rect key="frame" x="60" y="693" width="294" height="49"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRF-7O-HiV">
+                                <rect key="frame" x="100" y="762" width="214" height="40"/>
+                                <color key="backgroundColor" red="0.61731696849999995" green="0.3250413861" blue="0.35020077529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Dwe-5N-v4d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Proceed">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onProceed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="dJU-sf-4k9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9lb-v7-DsT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="60" id="1P7-A4-je8"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="XRF-7O-HiV" secondAttribute="trailing" constant="100" id="3qE-6k-KtG"/>
+                            <constraint firstItem="9lb-v7-DsT" firstAttribute="top" secondItem="rIq-xm-fTj" secondAttribute="bottom" constant="5" id="F2M-2B-2Nc"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="9lb-v7-DsT" secondAttribute="trailing" constant="60" id="OuM-Dt-bns"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="rIq-xm-fTj" secondAttribute="trailing" constant="50" id="PFy-dS-Sy1"/>
+                            <constraint firstItem="rIq-xm-fTj" firstAttribute="top" secondItem="g8u-TU-zFb" secondAttribute="bottom" constant="120" id="Wbo-22-1fC"/>
+                            <constraint firstItem="rIq-xm-fTj" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="XWC-OX-q2q"/>
+                            <constraint firstItem="g8u-TU-zFb" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="fay-pm-mzk"/>
+                            <constraint firstItem="XRF-7O-HiV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="100" id="pK7-d9-tC3"/>
+                            <constraint firstItem="g8u-TU-zFb" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="rok-jM-MlM"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="9lb-v7-DsT" secondAttribute="bottom" constant="120" id="tve-Jv-jKh"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="XRF-7O-HiV" secondAttribute="bottom" constant="60" id="up3-ww-Mcc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="greetinsLabel" destination="9lb-v7-DsT" id="ZMM-TK-ScO"/>
+                        <outlet property="messageImage" destination="g8u-TU-zFb" id="VI0-B8-Np5"/>
+                        <outlet property="proceedBtn" destination="XRF-7O-HiV" id="FYc-ru-2kX"/>
+                        <outlet property="welcomeLabel" destination="rIq-xm-fTj" id="o7T-F4-sEm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35" y="88"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="message.fill" catalog="system" width="128" height="113"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
