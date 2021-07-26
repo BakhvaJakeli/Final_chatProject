@@ -43,6 +43,22 @@
 		D0AD770426ADEEA100B5A110 /* ProfileViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AD770326ADEEA100B5A110 /* ProfileViewController.storyboard */; };
 		D0AD770626ADEEE400B5A110 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD770526ADEEE400B5A110 /* ProfileCoordinator.swift */; };
 		D0AD770826AE0B3200B5A110 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD770726AE0B3200B5A110 /* ProfileViewModel.swift */; };
+		D0AD770A26AE172300B5A110 /* ChatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD770926AE172300B5A110 /* ChatsViewModel.swift */; };
+		D0AD770C26AE173600B5A110 /* ChatsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD770B26AE173600B5A110 /* ChatsDataSource.swift */; };
+		D0AD771026AE17CA00B5A110 /* ChatsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD770E26AE17CA00B5A110 /* ChatsTableCell.swift */; };
+		D0AD771126AE17CA00B5A110 /* ChatsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0AD770F26AE17CA00B5A110 /* ChatsTableCell.xib */; };
+		D0AD771726AE1B1800B5A110 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD771626AE1B1800B5A110 /* MessagingViewController.swift */; };
+		D0AD771926AE1B2800B5A110 /* MessagingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AD771826AE1B2800B5A110 /* MessagingViewController.storyboard */; };
+		D0AD771B26AE1B6D00B5A110 /* MessagingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD771A26AE1B6D00B5A110 /* MessagingViewModel.swift */; };
+		D0AD771D26AE1B8300B5A110 /* MessagingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD771C26AE1B8300B5A110 /* MessagingCoordinator.swift */; };
+		D0AD772126AE279E00B5A110 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD772026AE279E00B5A110 /* Message.swift */; };
+		D0AD772626AE2C8E00B5A110 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD772526AE2C8E00B5A110 /* ContactsViewController.swift */; };
+		D0AD772826AE2C9E00B5A110 /* ContactsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AD772726AE2C9E00B5A110 /* ContactsViewController.storyboard */; };
+		D0AD772A26AE2CCC00B5A110 /* ContactsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD772926AE2CCC00B5A110 /* ContactsCoordinator.swift */; };
+		D0AD772E26AE2E2600B5A110 /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD772C26AE2E2600B5A110 /* ContactsCell.swift */; };
+		D0AD772F26AE2E2600B5A110 /* ContactsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0AD772D26AE2E2600B5A110 /* ContactsCell.xib */; };
+		D0AD773126AE2E8900B5A110 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD773026AE2E8900B5A110 /* ContactsViewModel.swift */; };
+		D0AD773326AE2E9A00B5A110 /* ContactsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD773226AE2E9A00B5A110 /* ContactsDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +102,22 @@
 		D0AD770326ADEEA100B5A110 /* ProfileViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileViewController.storyboard; sourceTree = "<group>"; };
 		D0AD770526ADEEE400B5A110 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
 		D0AD770726AE0B3200B5A110 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		D0AD770926AE172300B5A110 /* ChatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewModel.swift; sourceTree = "<group>"; };
+		D0AD770B26AE173600B5A110 /* ChatsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsDataSource.swift; sourceTree = "<group>"; };
+		D0AD770E26AE17CA00B5A110 /* ChatsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsTableCell.swift; sourceTree = "<group>"; };
+		D0AD770F26AE17CA00B5A110 /* ChatsTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatsTableCell.xib; sourceTree = "<group>"; };
+		D0AD771626AE1B1800B5A110 /* MessagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
+		D0AD771826AE1B2800B5A110 /* MessagingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MessagingViewController.storyboard; sourceTree = "<group>"; };
+		D0AD771A26AE1B6D00B5A110 /* MessagingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingViewModel.swift; sourceTree = "<group>"; };
+		D0AD771C26AE1B8300B5A110 /* MessagingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingCoordinator.swift; sourceTree = "<group>"; };
+		D0AD772026AE279E00B5A110 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D0AD772526AE2C8E00B5A110 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		D0AD772726AE2C9E00B5A110 /* ContactsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContactsViewController.storyboard; sourceTree = "<group>"; };
+		D0AD772926AE2CCC00B5A110 /* ContactsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCoordinator.swift; sourceTree = "<group>"; };
+		D0AD772C26AE2E2600B5A110 /* ContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCell.swift; sourceTree = "<group>"; };
+		D0AD772D26AE2E2600B5A110 /* ContactsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsCell.xib; sourceTree = "<group>"; };
+		D0AD773026AE2E8900B5A110 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		D0AD773226AE2E9A00B5A110 /* ContactsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				D0A89F9026ADBAF70071C4E8 /* GoogleService-Info.plist */,
+				D0AD771E26AE277E00B5A110 /* Model */,
 				D0AD76FB26ADDBD900B5A110 /* Managers */,
 				D0A89F6426AC2E070071C4E8 /* Inftrastructure */,
 				D0A89F5C26AC2DAE0071C4E8 /* Presentation */,
@@ -304,6 +337,7 @@
 		D0A89F9726ADC5AA0071C4E8 /* Chats */ = {
 			isa = PBXGroup;
 			children = (
+				D0AD771226AE1AD000B5A110 /* Messaging */,
 				D0A89F9B26ADC5C10071C4E8 /* View */,
 				D0A89F9926ADC5B40071C4E8 /* ViewModel */,
 				D0A89F9826ADC5AF0071C4E8 /* Coordinator */,
@@ -322,6 +356,8 @@
 		D0A89F9926ADC5B40071C4E8 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D0AD770926AE172300B5A110 /* ChatsViewModel.swift */,
+				D0AD770B26AE173600B5A110 /* ChatsDataSource.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -329,6 +365,7 @@
 		D0A89F9B26ADC5C10071C4E8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D0AD770D26AE178800B5A110 /* ChatsTableCell */,
 				D0A89F9E26ADC6660071C4E8 /* ChatsViewController.swift */,
 				D0A89FA026ADC6730071C4E8 /* ChatsViewController.storyboard */,
 			);
@@ -338,6 +375,9 @@
 		D0A89FA226ADD4880071C4E8 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				D0AD772426AE2C7000B5A110 /* Coordinator */,
+				D0AD772326AE2C6900B5A110 /* ViewModel */,
+				D0AD772226AE2C6100B5A110 /* View */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -383,6 +423,94 @@
 				D0AD770326ADEEA100B5A110 /* ProfileViewController.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D0AD770D26AE178800B5A110 /* ChatsTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				D0AD770E26AE17CA00B5A110 /* ChatsTableCell.swift */,
+				D0AD770F26AE17CA00B5A110 /* ChatsTableCell.xib */,
+			);
+			path = ChatsTableCell;
+			sourceTree = "<group>";
+		};
+		D0AD771226AE1AD000B5A110 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				D0AD771526AE1AF300B5A110 /* Coordinator */,
+				D0AD771426AE1AEB00B5A110 /* ViewModel */,
+				D0AD771326AE1AE700B5A110 /* View */,
+			);
+			path = Messaging;
+			sourceTree = "<group>";
+		};
+		D0AD771326AE1AE700B5A110 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0AD771626AE1B1800B5A110 /* MessagingViewController.swift */,
+				D0AD771826AE1B2800B5A110 /* MessagingViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0AD771426AE1AEB00B5A110 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0AD771A26AE1B6D00B5A110 /* MessagingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D0AD771526AE1AF300B5A110 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D0AD771C26AE1B8300B5A110 /* MessagingCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D0AD771E26AE277E00B5A110 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0AD772026AE279E00B5A110 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0AD772226AE2C6100B5A110 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0AD772B26AE2E0B00B5A110 /* ContactsCell */,
+				D0AD772526AE2C8E00B5A110 /* ContactsViewController.swift */,
+				D0AD772726AE2C9E00B5A110 /* ContactsViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0AD772326AE2C6900B5A110 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0AD773026AE2E8900B5A110 /* ContactsViewModel.swift */,
+				D0AD773226AE2E9A00B5A110 /* ContactsDataSource.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D0AD772426AE2C7000B5A110 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D0AD772926AE2CCC00B5A110 /* ContactsCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D0AD772B26AE2E0B00B5A110 /* ContactsCell */ = {
+			isa = PBXGroup;
+			children = (
+				D0AD772C26AE2E2600B5A110 /* ContactsCell.swift */,
+				D0AD772D26AE2E2600B5A110 /* ContactsCell.xib */,
+			);
+			path = ContactsCell;
 			sourceTree = "<group>";
 		};
 		DAF5067828DDD9D60B69DEC7 /* Pods */ = {
@@ -455,13 +583,17 @@
 			files = (
 				D0A89F5526AC2C0A0071C4E8 /* LaunchScreen.storyboard in Resources */,
 				D0A89F8326AC30CB0071C4E8 /* SignUpViewController.storyboard in Resources */,
+				D0AD771126AE17CA00B5A110 /* ChatsTableCell.xib in Resources */,
 				D0A89F8A26AC58070071C4E8 /* WelcomeViewController.storyboard in Resources */,
 				D0A89F9626ADC4500071C4E8 /* MainTabBarController.storyboard in Resources */,
 				D0A89F6326AC2DFB0071C4E8 /* LogInViewController.storyboard in Resources */,
+				D0AD772F26AE2E2600B5A110 /* ContactsCell.xib in Resources */,
 				D0A89F5226AC2C0A0071C4E8 /* Assets.xcassets in Resources */,
+				D0AD772826AE2C9E00B5A110 /* ContactsViewController.storyboard in Resources */,
 				D0A89FA126ADC6730071C4E8 /* ChatsViewController.storyboard in Resources */,
 				D0A89F5026AC2C020071C4E8 /* Main.storyboard in Resources */,
 				D0AD770426ADEEA100B5A110 /* ProfileViewController.storyboard in Resources */,
+				D0AD771926AE1B2800B5A110 /* MessagingViewController.storyboard in Resources */,
 				D0A89F9126ADBAF80071C4E8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +650,8 @@
 				D0A89F9D26ADC5E70071C4E8 /* ChatsCoordinator.swift in Sources */,
 				D0A89F7D26AC307A0071C4E8 /* LogInViewModel.swift in Sources */,
 				D0A89F8826AC57F80071C4E8 /* WelcomeViewController.swift in Sources */,
+				D0AD773326AE2E9A00B5A110 /* ContactsDataSource.swift in Sources */,
+				D0AD771726AE1B1800B5A110 /* MessagingViewController.swift in Sources */,
 				D0A89F7B26AC2ECA0071C4E8 /* BaseViewController.swift in Sources */,
 				D0A89F9F26ADC6660071C4E8 /* ChatsViewController.swift in Sources */,
 				D0A89F7426AC2E750071C4E8 /* UICollectionView + Extension.swift in Sources */,
@@ -527,14 +661,24 @@
 				D0A89F4D26AC2C020071C4E8 /* ViewController.swift in Sources */,
 				D0AD76FD26ADDBFC00B5A110 /* DataBaseManager.swift in Sources */,
 				D0A89F6D26AC2E650071C4E8 /* CoordinatorProtocol.swift in Sources */,
+				D0AD772126AE279E00B5A110 /* Message.swift in Sources */,
 				D0A89F8C26AC6D6C0071C4E8 /* WelcomeViewModel.swift in Sources */,
 				D0A89F7526AC2E750071C4E8 /* UICollectionViewCell + Extension.swift in Sources */,
 				D0AD770826AE0B3200B5A110 /* ProfileViewModel.swift in Sources */,
+				D0AD770C26AE173600B5A110 /* ChatsDataSource.swift in Sources */,
+				D0AD771B26AE1B6D00B5A110 /* MessagingViewModel.swift in Sources */,
+				D0AD772A26AE2CCC00B5A110 /* ContactsCoordinator.swift in Sources */,
 				D0A89F7326AC2E750071C4E8 /* UITableViewCell + Extension.swift in Sources */,
+				D0AD770A26AE172300B5A110 /* ChatsViewModel.swift in Sources */,
+				D0AD771026AE17CA00B5A110 /* ChatsTableCell.swift in Sources */,
 				D0AD770226ADEE5000B5A110 /* ProfileViewController.swift in Sources */,
+				D0AD772626AE2C8E00B5A110 /* ContactsViewController.swift in Sources */,
+				D0AD773126AE2E8900B5A110 /* ContactsViewModel.swift in Sources */,
 				D0AD770626ADEEE400B5A110 /* ProfileCoordinator.swift in Sources */,
 				D0A89F8126AC30BE0071C4E8 /* SignUpViewController.swift in Sources */,
+				D0AD772E26AE2E2600B5A110 /* ContactsCell.swift in Sources */,
 				D0A89F9426ADC43F0071C4E8 /* MainTabBarController.swift in Sources */,
+				D0AD771D26AE1B8300B5A110 /* MessagingCoordinator.swift in Sources */,
 				D0A89F6A26AC2E650071C4E8 /* Storyboarded.swift in Sources */,
 				D0A89F4926AC2C020071C4E8 /* AppDelegate.swift in Sources */,
 				D0A89F4B26AC2C020071C4E8 /* SceneDelegate.swift in Sources */,

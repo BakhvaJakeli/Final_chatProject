@@ -17,6 +17,7 @@ protocol CoordinatorProtocol: AnyObject {
     func proceedToSignUp()
     func popBack()
     func proceedToTabBar()
+    func proceedToMessaging()
 
 }
 
@@ -26,5 +27,6 @@ extension CoordinatorProtocol {
     func proceedToSignUp() {}
     func popBack() {}
     func proceedToTabBar() {}
+    func proceedToMessaging() {}
  
 }

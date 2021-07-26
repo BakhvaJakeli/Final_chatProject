@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseAuth
+import JGProgressHUD
 
 protocol SignUpViewModelProtocol: AnyObject {
     init(with viewcontroller: UIViewController, coordinator: CoordinatorProtocol)
@@ -20,6 +21,9 @@ protocol SignUpViewModelProtocol: AnyObject {
 }
 
 final class SignUpViewModel: SignUpViewModelProtocol {
+    
+    private let spinner = JGProgressHUD(style: .dark)
+    
     private weak var controller: UIViewController?
     var coordinator : CoordinatorProtocol?
     
@@ -63,7 +67,14 @@ final class SignUpViewModel: SignUpViewModelProtocol {
             
         }
         
+        spinner.show(in: controller.view)
+        
         DataBaseManager.shared.userExists(with: mail) { [weak self] exists in
+            
+            DispatchQueue.main.async {
+                self?.spinner.dismiss()
+            }
+            
             guard !exists else {
                 self?.wrongAllert(controller: controller, message: "User with this Mail already exists")
                 return //show error

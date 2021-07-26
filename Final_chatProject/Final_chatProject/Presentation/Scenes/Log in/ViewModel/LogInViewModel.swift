@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseAuth
+import JGProgressHUD
 
 protocol LogInViewModelProtocoll: AnyObject {
     init(with viewcontroller: UIViewController, coordinator: CoordinatorProtocol)
@@ -17,6 +18,9 @@ protocol LogInViewModelProtocoll: AnyObject {
 }
 
 final class LogInViewModel: LogInViewModelProtocoll {
+    
+    private let spinner = JGProgressHUD(style: .dark)
+    
     private weak var controller: UIViewController?
     
     var coordinator: CoordinatorProtocol?
@@ -41,7 +45,14 @@ final class LogInViewModel: LogInViewModelProtocoll {
             return
         }
         
+        spinner.show(in: controller.view)
+        
         FirebaseAuth.Auth.auth().signIn(withEmail: email, password: password) { [weak self] result, error in
+            
+            DispatchQueue.main.async {
+                self?.spinner.dismiss()
+            }
+            
             guard let authresult = result, error == nil else {
                 print("No such User")
                 return

@@ -23,5 +23,9 @@ final class ChatsCoordinator: CoordinatorProtocol {
         self.navigationController?.viewControllers = [vc]
     }
     
-    
+    func proceedToMessaging() {
+        let vc = MessagingViewController.instantiateFromStoryboard()
+        vc.coordinator = self
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }

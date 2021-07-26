@@ -10,6 +10,7 @@ import UIKit
 class MainTabBarController: UITabBarController, Storyboarded, CoordinatorDelegate {
    
     private var chatsCoordinator = ChatsCoordinator()
+    private var contactsCoordinator = ContactsCoordinator()
     private var profilecoordinator = ProfileCoordinator()
     
     var coordinator: CoordinatorProtocol?
@@ -19,6 +20,7 @@ class MainTabBarController: UITabBarController, Storyboarded, CoordinatorDelegat
 
         viewControllers = [
             chatsCoordinator.navigationController!,
+            contactsCoordinator.navigationController!,
             profilecoordinator.navigationController!
         ]
         

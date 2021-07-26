@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MessageKit
 
 class BaseViewController: UIViewController, Storyboarded, CoordinatorDelegate {
     var coordinator: CoordinatorProtocol?
